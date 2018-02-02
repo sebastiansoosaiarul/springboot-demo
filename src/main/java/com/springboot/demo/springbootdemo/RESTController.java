@@ -10,6 +10,6 @@ public class RESTController {
 	
 	    @RequestMapping("/home")
 	    public String home() {
-	        return "<html><h1>This is a test Spring boot application running on OPENSHIFT ENV!</h1></html>";
+	        return "<html><h1>This is a test Spring boot application running on OPENSHIFT!</h1></html>";
 	    }
 }
