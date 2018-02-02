@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @EnableAutoConfiguration
+@RequestMapping("/springboot-demo")
 public class RESTController {
 	
 	    @RequestMapping("/home")
