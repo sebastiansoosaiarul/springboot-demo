@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableAutoConfiguration
 public class RESTController {
 	
-	    @RequestMapping("/")
+	    @RequestMapping("/home")
 	    public String home() {
-	        return "<html><h1>Spring boot application home!</h1></html>";
+	        return "<html><h1>This is a test Spring boot application running on openshift!</h1></html>";
 	    }
 }
